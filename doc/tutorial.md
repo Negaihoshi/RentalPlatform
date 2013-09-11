@@ -25,7 +25,7 @@ xxxx 就是說 `Github` 首頁的那個連結網址喔
 ##如何 Pull Request
 在我的 Repository 大約右上的位置有個 `fork` 按鈕
 
-[Repository]: https://github.com/Negaihoshi/RentalPlatform 
+<https://github.com/Negaihoshi/RentalPlatform>
 
 他會將我的 Repository 複製到你的 Repository 裏面
 
