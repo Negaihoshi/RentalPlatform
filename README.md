@@ -10,6 +10,7 @@ A Simple RentalPlatform
 - 甘特圖
 - 學習記錄(專案紀錄)
 
+---
 
 ##使用方法
     git clone https://github.com/Negaihoshi/RentalPlatform.git
