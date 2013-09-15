@@ -28,22 +28,47 @@ meta 資料，設定字元編碼為 UTF-8，這邊我建議是不管用哪種語
 
     <!-- Latest compiled and minified CSS -->
 
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+連結某個檔案用的語法 href 是 Hypertext Reference 的縮寫，是超連結的意思。
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+rel 是 Relationship 的縮寫，就是說這個連結是樣式表。
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="Negaihoshi">
-<!-- <link rel="shortcut icon" href="../../assets/ico/favicon.png"> -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 
-<!-- Custom styles for this template -->
-<link href="http://getbootstrap.com/examples/jumbotron/jumbotron.css" rel="stylesheet">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-</head>
+ 跟上面的相同
 
-<body>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+
+其實下面這個我原本也不知道  查了後才知道的
+順便說一下  現在這個網頁是我拿 bootstrap 的模板弄得
+這是初始化網頁的設定的 meta 資料
+詳細請看 <http://blog.caesarchi.com/2012/05/html-viewport-meta.html>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+meta 其實就是你對檔案右鍵內容，記錄時間、作者等資料的東西。
+這邊是我有一個名叫做 author 的 meta 資料，內容是 Negaihoshi。
+
+    <meta name="author" content="Negaihoshi">
+
+這個是跟瀏覽器說，我的網頁 icon 在這邊喔！請讀取他。
+
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+跟上面相同，跳過。
+
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/jumbotron/jumbotron.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+一開就要一關喔，前面用 `<head>`，後面就要用 `</head>` 關閉。
+
+    </head>
+
+這裡是放網頁的主要內容。
+
+    <body>
+    
 <div class="navbar navbar-inverse navbar-fixed-top">
 <div class="container">
 <div class="navbar-header">

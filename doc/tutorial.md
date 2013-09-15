@@ -14,8 +14,8 @@
 
     cd C:\wamp\www\
     git clone 
-        git clone xxxxx
-xxxx 就是說 `Github` 首頁的那個連結網址喔
+    git clone xxxxx
+xxxx 就是說 `GitHub` 首頁的那個連結網址喔
 例如我的是 
 
     https://github.com/Negaihoshi/RentalPlatform.git
